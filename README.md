@@ -1,93 +1,207 @@
-# XAUUSD Automated Trading System
+<p align="center">
+  <img src="docs/banner.png" width="100%">
+</p>
 
-## Overview
+<h1 align="center">XAUUSD Automated Trading System</h1>
 
-This project is a fully automated trading system developed specifically for XAUUSD (Gold).
-
-The objective of this system is not to chase unrealistic returns or promote aggressive account growth. Instead, it is designed for traders who value disciplined execution, controlled risk exposure, and systematic market participation.
-
-The system operates autonomously and manages trade execution, position handling, and risk management without manual intervention.
-
----
-
-## Philosophy
-
-Markets are unpredictable.
-
-The goal of this project is not to predict every move but to consistently execute predefined rules while protecting capital and maintaining operational stability.
-
-The system focuses on:
-
-- Consistent execution
-- Risk management
-- Capital preservation
-- Automated trade management
-- Stable operation during changing market conditions
+<p align="center">
+Disciplined Execution • Risk Management • Autonomous Trading
+</p>
 
 ---
 
-## Features
+## Equity Performance
+
+<p align="center">
+  <img src="docs/equity_curve.png" width="900">
+</p>
+
+---
+
+## Drawdown Analysis
+
+<p align="center">
+  <img src="docs/drawdown_curve.png" width="900">
+</p>
+
+---
+
+## Performance Snapshot
+
+| Metric | Value |
+|----------|----------|
+| Initial Deposit | $100 |
+| Total Net Profit | $2,451,138 |
+| Profit Factor | 1.99 |
+| Recovery Factor | 825.08 |
+| Sharpe Ratio | 7.56 |
+| Total Trades | 663,036 |
+| Winning Trades | 77.27% |
+| Long Win Rate | 75.56% |
+| Short Win Rate | 79.17% |
+| Maximum Equity Drawdown | 10.89% |
+| History Quality | 100% |
+| Ticks Processed | 71,071,402 |
+
+> Historical results shown above were obtained through backtesting and are presented for research and evaluation purposes only. Past performance does not guarantee future results.
+
+---
+
+# Overview
+
+The XAUUSD Automated Trading System is a fully autonomous trading framework engineered specifically for the Gold market.
+
+This project was not built to pursue aggressive account growth or market unrealistic expectations. Its primary objective is disciplined market participation through controlled risk exposure, intelligent position management, and consistent execution.
+
+The system continuously monitors market conditions, manages positions automatically, and executes trades without emotional interference.
+
+Designed for traders who value process over prediction, it focuses on long-term operational stability rather than short-term excitement.
+
+---
+
+# Core Principles
+
+### Capital Preservation First
+
+Protecting trading capital remains the highest priority.
+
+### Consistent Execution
+
+Every decision follows predefined rules without emotional influence.
+
+### Risk-Controlled Trading
+
+Exposure is managed automatically through built-in risk management systems.
+
+### Automation Over Emotion
+
+The system removes human hesitation, fear, and greed from execution.
+
+### Long-Term Sustainability
+
+Built to operate efficiently through changing market conditions.
+
+---
+
+# Features
 
 ### Fully Automated Trading
-No manual trade entries are required once the system is deployed.
 
-### Risk Management Framework
-Built with capital protection as a core principle.
+No manual entries required after deployment.
 
-### Dynamic Position Handling
-Positions are managed automatically according to predefined execution logic.
+### XAUUSD Optimized
+
+Designed specifically for Gold market characteristics.
+
+### Dynamic Position Management
+
+Trades are monitored and managed automatically.
 
 ### Hedging Support
-Supports hedged market exposure when conditions require additional protection.
 
-### Autonomous Execution
-Designed to monitor markets and react without emotional decision-making.
+Capable of handling hedged exposure when required.
 
-### Long-Term Operation
-Structured for continuous execution with minimal user interaction.
+### Autonomous Risk Control
 
----
+Integrated protection mechanisms designed to maintain controlled exposure.
 
-## Technical Highlights
+### Real-Time Market Monitoring
 
-- MetaTrader 5 Compatible
-- Automated Position Management
-- Advanced Order Execution Logic
-- Hedging Capabilities
-- Real-Time Trade Monitoring
-- Optimized for XAUUSD
-- Low Maintenance Operation
+Continuously evaluates market conditions during operation.
 
----
+### Low Maintenance Operation
 
-## Performance
+Requires minimal user intervention once configured.
 
-Historical testing has demonstrated strong operational consistency across extensive datasets.
+### MetaTrader 5 Compatible
 
-Past performance should never be considered a guarantee of future results.
-
-All trading involves risk.
+Built for MT5 execution environments.
 
 ---
 
-## Intended Users
+# Technical Highlights
+
+- Fully Automated Execution
+- Advanced Trade Management
+- Dynamic Risk Handling
+- Hedging Capability
+- Continuous Market Monitoring
+- High-Speed Decision Logic
+- XAUUSD Specialized Framework
+- MT5 Integration
+- Long-Term Deployment Ready
+
+---
+
+# Who Is This For?
 
 This project is intended for traders who:
 
-- Prefer automated execution
+- Prefer automated execution over manual trading
 - Trade XAUUSD regularly
 - Value risk management over hype
-- Want systematic market participation
-- Prefer data-driven decision making
+- Prefer systematic decision-making
+- Seek disciplined market participation
+- Want consistent execution without emotional influence
 
 ---
 
-## Disclaimer
+# Repository Structure
 
-This software is provided for educational and research purposes.
+```text
+├── Experts/
+│   └── XAUUSD_Bot.mq5
+│
+├── Indicators/
+│
+├── Presets/
+│
+├── Docs/
+│   ├── equity_curve.png
+│   ├── drawdown_curve.png
+│   └── banner.png
+│
+└── README.md
+```
 
-Trading financial markets involves substantial risk and may not be suitable for all investors.
+---
 
-Users are responsible for evaluating the suitability of the software and any risks associated with its use.
+# Installation
 
-No guarantee of profitability is expressed or implied.
+1. Install MetaTrader 5.
+2. Copy the Expert Advisor into the MT5 Experts directory.
+3. Compile the project.
+4. Attach the EA to an XAUUSD chart.
+5. Configure inputs if required.
+6. Enable Algo Trading.
+7. Monitor operation through MT5.
+
+---
+
+# Risk Notice
+
+Trading leveraged financial instruments involves substantial risk.
+
+Losses can exceed expectations and no trading system can guarantee profitability under all market conditions.
+
+Users should evaluate risk carefully before deploying any automated strategy.
+
+---
+
+# Disclaimer
+
+This software is provided for educational, research, and development purposes.
+
+The information, results, and performance statistics presented within this repository do not constitute financial advice, investment advice, or a solicitation to trade financial markets.
+
+All trading decisions remain the sole responsibility of the user.
+
+Past performance is not indicative of future results.
+
+Use at your own risk.
+
+---
+
+<p align="center">
+Built for disciplined execution, controlled risk exposure, and autonomous market participation.
+</p>
