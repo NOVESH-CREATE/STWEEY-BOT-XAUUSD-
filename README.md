@@ -1,207 +1,129 @@
-<p align="center">
-  <img src="docs/banner.png" width="100%">
-</p>
+# STWEEY
 
-<h1 align="center">XAUUSD Automated Trading System</h1>
+### Autonomous XAUUSD Trading Framework
 
-<p align="center">
 Disciplined Execution • Risk Management • Autonomous Trading
-</p>
 
 ---
 
-## Equity Performance
+## Overview
 
-<p align="center">
-  <img src="docs/equity_curve.png" width="900">
-</p>
+STWEEY is a fully automated trading framework developed specifically for XAUUSD (Gold).
 
----
+The project was designed for traders who value disciplined execution, controlled risk exposure, and systematic market participation.
 
-## Drawdown Analysis
+Rather than pursuing unrealistic growth targets, STWEEY focuses on consistent execution, capital preservation, and long-term operational stability.
 
-<p align="center">
-  <img src="docs/drawdown_curve.png" width="900">
-</p>
+The system operates autonomously, continuously monitoring market conditions and managing positions without emotional decision-making.
 
 ---
 
-## Performance Snapshot
+## Core Principles
 
-| Metric | Value |
-|----------|----------|
-| Initial Deposit | $100 |
-| Total Net Profit | $2,451,138 |
-| Profit Factor | 1.99 |
-| Recovery Factor | 825.08 |
-| Sharpe Ratio | 7.56 |
-| Total Trades | 663,036 |
-| Winning Trades | 77.27% |
-| Long Win Rate | 75.56% |
-| Short Win Rate | 79.17% |
-| Maximum Equity Drawdown | 10.89% |
-| History Quality | 100% |
-| Ticks Processed | 71,071,402 |
-
-> Historical results shown above were obtained through backtesting and are presented for research and evaluation purposes only. Past performance does not guarantee future results.
-
----
-
-# Overview
-
-The XAUUSD Automated Trading System is a fully autonomous trading framework engineered specifically for the Gold market.
-
-This project was not built to pursue aggressive account growth or market unrealistic expectations. Its primary objective is disciplined market participation through controlled risk exposure, intelligent position management, and consistent execution.
-
-The system continuously monitors market conditions, manages positions automatically, and executes trades without emotional interference.
-
-Designed for traders who value process over prediction, it focuses on long-term operational stability rather than short-term excitement.
-
----
-
-# Core Principles
-
-### Capital Preservation First
+### Capital Preservation
 
 Protecting trading capital remains the highest priority.
 
+### Risk Management
+
+Every position is managed through predefined risk controls.
+
 ### Consistent Execution
 
-Every decision follows predefined rules without emotional influence.
+Trading decisions are executed according to system rules without emotional interference.
 
-### Risk-Controlled Trading
+### Automation
 
-Exposure is managed automatically through built-in risk management systems.
-
-### Automation Over Emotion
-
-The system removes human hesitation, fear, and greed from execution.
+The framework is designed to operate independently with minimal user intervention.
 
 ### Long-Term Sustainability
 
-Built to operate efficiently through changing market conditions.
+Built to remain effective across varying market environments.
 
 ---
 
-# Features
+## Features
 
-### Fully Automated Trading
-
-No manual entries required after deployment.
-
-### XAUUSD Optimized
-
-Designed specifically for Gold market characteristics.
-
-### Dynamic Position Management
-
-Trades are monitored and managed automatically.
-
-### Hedging Support
-
-Capable of handling hedged exposure when required.
-
-### Autonomous Risk Control
-
-Integrated protection mechanisms designed to maintain controlled exposure.
-
-### Real-Time Market Monitoring
-
-Continuously evaluates market conditions during operation.
-
-### Low Maintenance Operation
-
-Requires minimal user intervention once configured.
-
-### MetaTrader 5 Compatible
-
-Built for MT5 execution environments.
-
----
-
-# Technical Highlights
-
-- Fully Automated Execution
-- Advanced Trade Management
-- Dynamic Risk Handling
-- Hedging Capability
-- Continuous Market Monitoring
-- High-Speed Decision Logic
+- Fully Automated Trading
 - XAUUSD Specialized Framework
-- MT5 Integration
-- Long-Term Deployment Ready
+- Dynamic Position Management
+- Autonomous Risk Control
+- Real-Time Market Monitoring
+- Hedging Support
+- Advanced Trade Management
+- MetaTrader 5 Compatible
+- Low Maintenance Operation
 
 ---
 
-# Who Is This For?
+## Performance Highlights
 
-This project is intended for traders who:
+- 100% Backtest History Quality
+- Extensive Multi-Million Tick Testing
+- Strong Risk-Adjusted Performance
+- Controlled Drawdown Characteristics
+- High Trade Sample Size
+- Long-Term Stability Focus
 
-- Prefer automated execution over manual trading
+---
+
+## Who Is This For?
+
+STWEEY is intended for traders who:
+
+- Prefer automated execution
 - Trade XAUUSD regularly
-- Value risk management over hype
+- Value risk management over speculation
 - Prefer systematic decision-making
 - Seek disciplined market participation
 - Want consistent execution without emotional influence
 
 ---
 
-# Repository Structure
+## Installation
 
-```text
-├── Experts/
-│   └── XAUUSD_Bot.mq5
-│
-├── Indicators/
-│
-├── Presets/
-│
-├── Docs/
-│   ├── equity_curve.png
-│   ├── drawdown_curve.png
-│   └── banner.png
-│
-└── README.md
-```
+1. Install MetaTrader 5
+2. Copy the Expert Advisor into the MT5 Experts folder
+3. Compile the project
+4. Attach STWEEY to an XAUUSD chart
+5. Configure desired settings
+6. Enable Algo Trading
+7. Monitor operation through MT5
 
 ---
 
-# Installation
+## Philosophy
 
-1. Install MetaTrader 5.
-2. Copy the Expert Advisor into the MT5 Experts directory.
-3. Compile the project.
-4. Attach the EA to an XAUUSD chart.
-5. Configure inputs if required.
-6. Enable Algo Trading.
-7. Monitor operation through MT5.
+Markets are unpredictable.
+
+The objective of STWEEY is not to predict every market movement but to consistently execute predefined rules while maintaining controlled risk exposure.
+
+The framework focuses on process, discipline, and automation rather than short-term excitement or unrealistic expectations.
 
 ---
 
-# Risk Notice
+## Risk Notice
 
 Trading leveraged financial instruments involves substantial risk.
 
-Losses can exceed expectations and no trading system can guarantee profitability under all market conditions.
+No trading system can guarantee profitability under all market conditions.
 
 Users should evaluate risk carefully before deploying any automated strategy.
 
 ---
 
-# Disclaimer
+## Disclaimer
 
-This software is provided for educational, research, and development purposes.
+This project is provided for educational, research, and development purposes.
 
-The information, results, and performance statistics presented within this repository do not constitute financial advice, investment advice, or a solicitation to trade financial markets.
+Nothing contained within this repository should be considered financial advice, investment advice, or a solicitation to trade financial markets.
 
-All trading decisions remain the sole responsibility of the user.
-
-Past performance is not indicative of future results.
+Past performance does not guarantee future results.
 
 Use at your own risk.
 
 ---
 
-<p align="center">
+### STWEEY
+
 Built for disciplined execution, controlled risk exposure, and autonomous market participation.
-</p>
